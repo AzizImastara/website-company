@@ -1,0 +1,170 @@
+<?php require_once 'config/database.php'; ?>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Basic Page Needs
+================================================== -->
+    <meta charset="utf-8" />
+    <title>Visi & Misi</title>
+
+    <!-- Mobile Specific Metas
+================================================== -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="Construction Html5 Template" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=5.0"
+    />
+    <meta name="author" content="Themefisher" />
+    <meta name="generator" content="Themefisher Constra HTML Template v1.0" />
+
+    <!-- Favicon
+================================================== -->
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+
+    <!-- CSS
+================================================== -->
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css" />
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="plugins/fontawesome/css/all.min.css" />
+    <!-- Animation -->
+    <link rel="stylesheet" href="plugins/animate-css/animate.css" />
+    <!-- slick Carousel -->
+    <link rel="stylesheet" href="plugins/slick/slick.css" />
+    <link rel="stylesheet" href="plugins/slick/slick-theme.css" />
+    <!-- Colorbox -->
+    <link rel="stylesheet" href="plugins/colorbox/colorbox.css" />
+    <!-- Template styles-->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="body-inner">
+      <!-- Navbar Component Container -->
+      <div id="navbar-container">
+        <!-- Navbar will be loaded here via JavaScript -->
+      </div>
+
+      <div
+        id="banner-area"
+        class="banner-area"
+        style="background-image: url(images/banner/banner1.jpg)"
+      >
+        <div class="banner-text">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="banner-heading">
+                  <h1 class="banner-title">Visi & Misi</h1>
+                </div>
+              </div>
+              <!-- Col end -->
+            </div>
+            <!-- Row end -->
+          </div>
+          <!-- Container end -->
+        </div>
+        <!-- Banner text end -->
+      </div>
+      <!-- Banner area end -->
+
+      <section id="main-container" class="main-container">
+        <div class="container">
+          <!-- Visi Section -->
+          <div class="row justify-content-center mb-5">
+            <div class="col-lg-10">
+              <div class="visi-misi-box">
+                <div class="text-center mb-4">
+                  <h3 class="section-sub-title">Visi</h3>
+                </div>
+                <div class="visi-content">
+                  <p class="visi-text">
+                    MENJADI PERUSAHAAN TERKEMUKA DI BIDANG JASA PERTAMBANGAN,
+                    KONSTRUKSI, DAN PERDAGANGAN TERKEMUKA YANG MAMPU MENCIPTAKAN
+                    NILAI OPTIMAL BAGI PARA PEMANGKU KEPENTINGAN.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Misi Section -->
+          <div class="row justify-content-center">
+            <div class="col-lg-10">
+              <div class="visi-misi-box">
+                <div class="text-center mb-4">
+                  <h3 class="section-sub-title">Misi</h3>
+                </div>
+                <div class="misi-content">
+                  <ol class="misi-list">
+                    <li>
+                      Menyediakan Jasa Pertambangan, Konstruksi, Dan Perdagangan
+                      Yang Berkomitmen Dan Terpercaya.
+                    </li>
+                    <li>
+                      Mengutamakan Mutu Dan Pelayanan Demi Kepuasan Pelanggan.
+                    </li>
+                    <li>
+                      Memberikan Nilai Tambah Kepada Pelanggan Melalui Kemitraan
+                      Strategis Dan Jangka Panjang.
+                    </li>
+                    <li>
+                      Menjadi Tempat Untuk Berprestasi Dan Mengembangkan Sumber
+                      Daya Manusia Yang Kompeten Dan Bertanggung Jawab.
+                    </li>
+                    <li>
+                      Berkomitmen Dan Bertanggung Jawab Pada Dampak Lingkungan
+                      Dan Komunitas Yang Berkelanjutan.
+                    </li>
+                    <li>
+                      Menjadi Aset Yang Berharga Dan Membanggakan Bagi
+                      Masyarakat, Bangsa, Dan Negara.
+                    </li>
+                  </ol>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Conatiner end -->
+      </section>
+      <!-- Main container end -->
+
+      <!-- Footer Component Container -->
+      <div id="footer-container">
+        <!-- Footer will be loaded here via JavaScript -->
+      </div>
+
+      <!-- Javascript Files
+  ================================================== -->
+
+      <!-- initialize jQuery Library -->
+      <script src="plugins/jQuery/jquery.min.js"></script>
+      <!-- Bootstrap jQuery -->
+      <script src="plugins/bootstrap/bootstrap.min.js" defer></script>
+      <!-- Slick Carousel -->
+      <script src="plugins/slick/slick.min.js"></script>
+      <script src="plugins/slick/slick-animation.min.js"></script>
+      <!-- Color box -->
+      <script src="plugins/colorbox/jquery.colorbox.js"></script>
+      <!-- shuffle -->
+      <script src="plugins/shuffle/shuffle.min.js" defer></script>
+
+      <!-- Google Map API Key-->
+      <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU"
+        defer
+      ></script>
+      <!-- Google Map Plugin-->
+      <script src="plugins/google-map/map.js" defer></script>
+
+      <!-- Template custom -->
+      <script src="js/script.js"></script>
+
+      <!-- Initialize components -->
+      <script src="components/component-loader.js"></script>
+    </div>
+    <!-- Body inner end -->
+  </body>
+</html>

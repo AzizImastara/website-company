@@ -12,7 +12,7 @@
       </div>
       <!--/ Top info end -->
 
-      <div class="col-lg-4 col-md-4 top-social text-center text-md-right">
+      <!-- <div class="col-lg-4 col-md-4 top-social text-center text-md-right">
         <ul class="list-unstyled">
           <li>
             <a title="Facebook" href="https://facebbok.com/themefisher.com">
@@ -29,7 +29,7 @@
             </a>
           </li>
         </ul>
-      </div>
+      </div> -->
       <!--/ Top social end -->
     </div>
     <!--/ Content row end -->
@@ -48,7 +48,7 @@
           <div
             class="logo col-lg-3 text-center text-lg-left mb-3 mb-md-5 mb-lg-0"
           >
-            <a class="d-block" href="index.html">
+            <a class="d-block" href="index.php">
               <img loading="lazy" src="img/Logo/logoo.png" alt="Logo" />
             </a>
           </div>
@@ -103,7 +103,7 @@
             <!-- Mobile header layout: icon + logo + hamburger -->
             <div class="mobile-header py-4">
               <div class="mobile-logo">
-                <a href="index.html">
+                <a href="index.php">
                   <img loading="lazy" src="img/Logo/logoo.png" alt="logo" />
                 </a>
               </div>
@@ -123,7 +123,7 @@
             <div id="navbar-collapse" class="collapse navbar-collapse">
               <ul class="nav navbar-nav mr-auto">
                 <li class="nav-item dropdown">
-                  <a href="index.html" class="nav-link">Beranda</a>
+                  <a href="index.php" class="nav-link">Beranda</a>
                 </li>
 
                 <li class="nav-item dropdown">
@@ -134,18 +134,18 @@
                     >Profile <i class="fa fa-angle-down"></i
                   ></a>
                   <ul class="dropdown-menu" role="menu">
-                    <li><a href="about.html">Tentang Kami</a></li>
-                    <li><a href="team.html">Struktur Organisasi</a></li>
-                    <li><a href="layanan.html">Layanan</a></li>
+                    <li><a href="about.php">Tentang Kami</a></li>
+                    <li><a href="team.php">Struktur Organisasi</a></li>
+                    <li><a href="layanan.php">Layanan</a></li>
                     <li>
-                      <a href="sertifikasi.html">Sertifikasi & Legalitas</a>
+                      <a href="sertifikasi.php">Sertifikasi & Legalitas</a>
                     </li>
-                    <li><a href="visi.html">Visi & Misi</a></li>
+                    <li><a href="visi.php">Visi & Misi</a></li>
                   </ul>
                 </li>
 
                 <li class="nav-item dropdown">
-                  <a href="portofolio.html" class="nav-link">Portofolio</a>
+                  <a href="portofolio.php" class="nav-link">Portofolio</a>
                 </li>
 
                 <li class="nav-item dropdown">
@@ -156,19 +156,19 @@
                     >Bisnis <i class="fa fa-angle-down"></i
                   ></a>
                   <ul class="dropdown-menu" role="menu">
-                    <li><a href="lini.html">Lini Bisnis</a></li>
-                    <li><a href="segment.html">Segmen Industri</a></li>
+                    <li><a href="lini.php">Lini Bisnis</a></li>
+                    <li><a href="segment.php">Segmen Industri</a></li>
                   </ul>
                 </li>
 
                 <li class="nav-item dropdown">
-                  <a href="berita.html" class="nav-link dropdown-toggle"
+                  <a href="berita.php" class="nav-link dropdown-toggle"
                     >Berita
                   </a>
                 </li>
 
                 <li class="nav-item">
-                  <a class="nav-link" href="contact.html">Kontak</a>
+                  <a class="nav-link" href="contact.php">Kontak</a>
                 </li>
               </ul>
             </div>
@@ -188,7 +188,7 @@
   /* Mobile header styles */
   @media (max-width: 991.98px) {
     .site-navigation {
-      background: #ffffff !important;
+      background: #23282d !important;
       padding: 10px 0;
     }
 
@@ -198,7 +198,7 @@
       justify-content: space-between;
       width: 100%;
       padding: 0 15px;
-      background: #ffffff !important;
+      background: #23282d !important;
     }
 
     .mobile-icon {
@@ -235,20 +235,30 @@
       display: none !important;
     }
 
-    /* Force white background on mobile */
+    /* Force dark background on mobile */
     .header-one,
     .header-one .site-navigation,
     .navbar {
-      background: #ffffff !important;
+      background: #23282d !important;
     }
 
-    /* Mobile menu text color */
+    /* Mobile navbar collapse background */
+    .navbar-collapse {
+      background: #23282d !important;
+    }
+
+    /* Mobile menu text color - white */
     .navbar-collapse .nav-link {
-      color: #555555 !important;
+      color: #ffffff !important;
+    }
+
+    .dropdown-menu {
+      background: #23282d !important;
+      border: 1px solid #666666 !important;
     }
 
     .dropdown-menu li a {
-      color: #555555 !important;
+      color: #ffffff !important;
     }
 
     .navbar-collapse .nav-link:hover,
