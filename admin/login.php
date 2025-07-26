@@ -150,15 +150,14 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                                 </button>
                             </div>
                         </form>
-                        
-                        <hr class="my-4">
+                        <!-- <hr class="my-4">
                         <div class="text-center">
                             <small class="text-muted">
                                 <strong>Demo Login:</strong><br>
                                 Username: <code>admin</code><br>
                                 Password: <code>admin123</code>
                             </small>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
