@@ -44,11 +44,8 @@
       <div id="navbar-container">
         <!-- Navbar will be loaded here via JavaScript -->
       </div>
-      <div
-        id="banner-area"
-        class="banner-area"
-        style="background-image: url(images/banner/banner1.jpg)"
-      >
+        <div id="banner-area" class="banner-area" style="background-image:url(images/banner/banner1.jpg)">
+
         <div class="banner-text">
           <div class="container">
             <div class="row">
@@ -66,231 +63,135 @@
         <!-- Banner text end -->
       </div>
       <!-- Banner area end -->
-
-      <section id="main-container" class="main-container">
-        <div class="container">
-          <div class="row">
-            <div class="col-xl-12 col-lg-12">
-              <div class="content-inner-page">
-                <h2 class="column-title mrt-0">Building Remodels</h2>
-
-                <div class="row">
-                  <div class="col-md-12">
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Integer adipiscing erat eget risus sollicitudin
-                      pellentesque et non erat. Maecenas nibh dolor, malesuada
-                      et bibendum a, sagittis accumsan ipsum. Pellentesque
-                      ultrices ultrices sapien.
-                    </p>
-                    <p>
-                      Nam scelerisque tristique dolor vitae tincidunt. Aenean
-                      quis massa uada mi elementum elementum. , nec tincidunt
-                      nunc posuere ut. Lorem ipsum dolor sit amet, consectetur
-                      adipiscing elit. Nulla commodo iaculis ligula, ac dapibus
-                      quam ornare ut. Praesent ac hendrerit sem, et tempus sem
-                    </p>
-                  </div>
-                  <!-- col end -->
-                </div>
-                <!-- <div id="page-slider" class="page-slider">
-                  <div class="item">
-                    <img
-                      loading="lazy"
-                      class="img-fluid"
-                      src="images/projects/project1.jpg"
-                      alt="project-slider-image"
-                    />
-                  </div>
-
-                  <div class="item">
-                    <img
-                      loading="lazy"
-                      class="img-fluid"
-                      src="images/projects/project2.jpg"
-                      alt="project-slider-image"
-                    />
-                  </div>
-                </div> -->
-                <!-- Page slider end -->
-
-                <div class="gap-40"></div>
-
-                <div class="row">
-                  <div class="col-md-6">
-                    <h3 class="column-title-small">What Makes Us Different</h3>
-
-                    <p>
-                      Anim pariatur cliche reprehenderit, enim eiusmod high life
-                      accusamus terry richardson ad squid. 3 wolf moon officia
-                      aute, non cupidatat skateboard dolor brunch. Food truck
-                      quinoa nesciunt laborum eiusmod. Consectetur adipiscing
-                      elit. Integer adipiscing erat eget risus sollicitudin
-                      pellentesque et non erat tincidunt nunc posuere.
-                    </p>
-                    <ul class="list-arrow">
-                      <li>Partnership Strategy tristique eleifend.</li>
-                      <li>Opporutnity to work with amet elit a.</li>
-                      <li>Saving Time to Deal with commodo iaculis.</li>
-                      <li>Leadership skills to manage erat volutpat.</li>
-                      <li>Cut cost without sacrificing dolore magna.</li>
-                      <li>Automate your business elis tristique.</li>
-                    </ul>
-                  </div>
-
-                  <div class="col-md-6 mt-5 mt-md-0">
-                    <h3 class="column-title-small">You Should Know</h3>
-
-                    <div
-                      class="accordion accordion-group accordion-classic"
-                      id="construction-accordion"
-                    >
-                      <div class="card">
-                        <div
-                          class="card-header p-0 bg-transparent"
-                          id="headingOne"
-                        >
-                          <h2 class="mb-0">
-                            <button
-                              class="btn btn-block text-left"
-                              type="button"
-                              data-toggle="collapse"
-                              data-target="#collapseOne"
-                              aria-expanded="true"
-                              aria-controls="collapseOne"
-                            >
-                              Does the law require head protection on
-                              construction sites?
-                            </button>
-                          </h2>
-                        </div>
-
-                        <div
-                          id="collapseOne"
-                          class="collapse show"
-                          aria-labelledby="headingOne"
-                          data-parent="#construction-accordion"
-                        >
-                          <div class="card-body">
-                            Anim pariatur cliche reprehenderit, enim eiusmod
-                            high life accusamus terry richardson ad squid. 3
-                            wolf moon officia aute, non cupidata
-                          </div>
-                        </div>
-                      </div>
-                      <div class="card">
-                        <div
-                          class="card-header p-0 bg-transparent"
-                          id="headingTwo"
-                        >
-                          <h2 class="mb-0">
-                            <button
-                              class="btn btn-block text-left collapsed"
-                              type="button"
-                              data-toggle="collapse"
-                              data-target="#collapseTwo"
-                              aria-expanded="false"
-                              aria-controls="collapseTwo"
-                            >
-                              What are the first aid requirements for sites?
-                            </button>
-                          </h2>
-                        </div>
-                        <div
-                          id="collapseTwo"
-                          class="collapse"
-                          aria-labelledby="headingTwo"
-                          data-parent="#construction-accordion"
-                        >
-                          <div class="card-body">
-                            Anemi nim veniam, quis nostrud exercitation ullamco
-                            laboris nisi ut aliquip ex ea com modo consequat.
-                            Duis aute irure dolor in reprehenderit in voluptate
-                            velit esse cillum dolore eu fugiat nulla pariatur.
-                            Excepteur sint occaecat cupid henderit in voluptate
-                            velit esse cillu oris nisi ut aliquip ex ea com
-                            matat.
-                          </div>
-                        </div>
-                      </div>
-                      <div class="card">
-                        <div
-                          class="card-header p-0 bg-transparent"
-                          id="headingThree"
-                        >
-                          <h2 class="mb-0">
-                            <button
-                              class="btn btn-block text-left collapsed"
-                              type="button"
-                              data-toggle="collapse"
-                              data-target="#collapseThree"
-                              aria-expanded="false"
-                              aria-controls="collapseThree"
-                            >
-                              What is an appointed person?
-                            </button>
-                          </h2>
-                        </div>
-                        <div
-                          id="collapseThree"
-                          class="collapse"
-                          aria-labelledby="headingThree"
-                          data-parent="#construction-accordion"
-                        >
-                          <div class="card-body">
-                            Lorem Ipsum is simply dummy text of the printing and
-                            typesetting industry. Lorem Ipsum has been the
-                            industry's standard dummy text ever since the 1500s,
-                            when an unknown printer took a galley of type and
-                            scrambled it to make a type specimen book.
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <!--/ Accordion end -->
-                  </div>
-                </div>
-                <!--2nd row end -->
-
-                <div class="gap-40"></div>
-
-                <div class="call-to-action classic">
-                  <div class="row align-items-center">
-                    <div class="col-md-8 text-center text-md-left">
-                      <div class="call-to-action-text">
-                        <h3 class="action-title">
-                          Interested with this service.
-                        </h3>
-                      </div>
-                    </div>
-                    <!-- Col end -->
-                    <div
-                      class="col-md-4 text-center text-md-right mt-3 mt-md-0"
-                    >
-                      <div class="call-to-action-btn">
-                        <a class="btn btn-primary" href="#">Get a Quote</a>
-                      </div>
-                    </div>
-                    <!-- col end -->
-                  </div>
-                  <!-- row end -->
-                </div>
-                <!-- Action end -->
-              </div>
-              <!-- Content inner end -->
+      <!-- Modern Segmen Industri Content Section -->
+      <section class="segment-section-modern">
+        <h2 class="segment-title"><i class="fas fa-industry"></i> Segmen Industri</h2>
+        <p class="segment-desc">PT. Karya Mandiri Cakra Buana melayani berbagai segmen industri dengan pendekatan yang fleksibel dan profesional. Segmentasi pasar kami meliputi:</p>
+        <div class="segment-cards">
+          <div class="segment-card">
+            <div class="segment-card-icon mining"><i class="fas fa-hard-hat"></i></div>
+            <div class="segment-card-content">
+              <h3 class="segment-card-title">Industri Pertambangan</h3>
+              <p class="segment-card-text">Menyediakan layanan operasional dan pemeliharaan area tambang yang mengedepankan keselamatan, efisiensi, dan keberlanjutan lingkungan.</p>
             </div>
-            <!-- Content Col end -->
           </div>
-          <!-- Main row end -->
+          <div class="segment-card">
+            <div class="segment-card-icon government"><i class="fas fa-landmark"></i></div>
+            <div class="segment-card-content">
+              <h3 class="segment-card-title">Sektor Pemerintahan & Proyek Infrastruktur Publik</h3>
+              <p class="segment-card-text">Terlibat dalam pembangunan fasilitas umum dan proyek strategis daerah yang membutuhkan standar mutu tinggi dan ketepatan waktu.</p>
+            </div>
+          </div>
+          <div class="segment-card">
+            <div class="segment-card-icon private"><i class="fas fa-industry"></i></div>
+            <div class="segment-card-content">
+              <h3 class="segment-card-title">Perusahaan Swasta & Industri Manufaktur</h3>
+              <p class="segment-card-text">Menjadi mitra pembangunan untuk fasilitas industri seperti gudang, pabrik, serta akses dan utilitas pendukung lainnya.</p>
+            </div>
+          </div>
+          <div class="segment-card">
+            <div class="segment-card-icon bumn"><i class="fas fa-building"></i></div>
+            <div class="segment-card-content">
+              <h3 class="segment-card-title">Badan Usaha Milik Negara (BUMN)</h3>
+              <p class="segment-card-text">Bekerja sama dalam pelaksanaan proyek berskala besar yang memerlukan tenaga ahli dan pengalaman profesional di bidang konstruksi dan lingkungan.</p>
+            </div>
+          </div>
         </div>
-        <!-- Conatiner end -->
       </section>
-      <!-- Main container end -->
 
-      <!-- Footer Component Container -->
-      <div id="footer-container">
+        <!-- Footer Component Container -->
+            <div id="footer-container">
         <!-- Footer will be loaded here via JavaScript -->
       </div>
+      <style>
+        .segment-section-modern {
+          max-width: 1100px;
+          margin: 40px auto 30px auto;
+          background: #fff;
+          border-radius: 18px;
+          box-shadow: 0 6px 32px rgba(44,62,80,0.10);
+          padding: 40px 30px 30px 30px;
+        }
+        .segment-title {
+          text-align: center;
+          font-size: 2.2rem;
+          color: #2c3e50;
+          font-weight: 800;
+          margin-bottom: 10px;
+        }
+        .segment-title i {
+          color: #2980b9;
+          margin-right: 10px;
+        }
+        .segment-desc {
+          text-align: center;
+          color: #555;
+          font-size: 1.13rem;
+          margin-bottom: 38px;
+        }
+        .segment-cards {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 28px;
+          justify-content: center;
+        }
+        .segment-card {
+          background: linear-gradient(135deg, #f8f9fa 0%, #f1f2f6 100%);
+          border-radius: 16px;
+          box-shadow: 0 2px 12px rgba(44,62,80,0.07);
+          padding: 32px 28px 24px 28px;
+          flex: 1 1 270px;
+          min-width: 270px;
+          max-width: 340px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          transition: box-shadow 0.2s, transform 0.2s;
+          border: 1px solid #f0f0f0;
+        }
+        .segment-card:hover {
+          box-shadow: 0 8px 32px rgba(44,62,80,0.16);
+          transform: translateY(-4px) scale(1.03);
+        }
+        .segment-card-icon {
+          width: 64px;
+          height: 64px;
+          border-radius: 50%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-size: 2.1rem;
+          margin-bottom: 18px;
+          background: linear-gradient(135deg, #2980b9 0%, #6dd5fa 100%);
+          color: #fff;
+          box-shadow: 0 2px 8px rgba(41, 128, 185, 0.13);
+        }
+        .segment-card-icon.mining { background: linear-gradient(135deg, #e67e22 0%, #f1c40f 100%); }
+        .segment-card-icon.government { background: linear-gradient(135deg, #27ae60 0%, #2ecc71 100%); }
+        .segment-card-icon.private { background: linear-gradient(135deg, #8e44ad 0%, #6dd5fa 100%); }
+        .segment-card-icon.bumn { background: linear-gradient(135deg, #e74c3c 0%, #f39c12 100%); }
+        .segment-card-title {
+          font-size: 1.18rem;
+          font-weight: 700;
+          color: #2c3e50;
+          margin-bottom: 12px;
+          text-align: center;
+        }
+        .segment-card-text {
+          color: #444;
+          font-size: 1.04rem;
+          text-align: center;
+        }
+        @media (max-width: 900px) {
+          .segment-cards {
+            flex-direction: column;
+            gap: 22px;
+          }
+          .segment-section-modern {
+            padding: 25px 6px 18px 6px;
+          }
+        }
+      </style>
 
       <!-- Javascript Files
   ================================================== -->

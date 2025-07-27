@@ -42,6 +42,57 @@ $kategori_portofolio = getKategoriPortofolio();
     <link rel="stylesheet" href="plugins/colorbox/colorbox.css" />
     <!-- Template styles-->
     <link rel="stylesheet" href="css/style.css" />
+    <style>
+  .business-card {
+    background: #fff;
+    border-radius: 18px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+    padding: 2rem 1.5rem 1.5rem 1.5rem;
+    margin-bottom: 2rem;
+    transition: box-shadow 0.2s;
+    position: relative;
+    overflow: hidden;
+  }
+  .business-card:hover {
+    box-shadow: 0 8px 32px rgba(0,0,0,0.13);
+    transform: translateY(-4px) scale(1.02);
+  }
+  .business-card .ts-service-image-wrapper img {
+    border-radius: 12px;
+    margin-bottom: 1.2rem;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+  }
+  .business-card .ts-service-box-img {
+    margin-right: 1.2rem;
+    display: flex;
+    align-items: flex-start;
+  }
+  .business-card .ts-service-info h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
+  .business-card .ts-service-info p {
+    color: #555;
+    font-size: 1rem;
+    margin-bottom: 0.7rem;
+  }
+  .business-card .learn-more {
+    color: #3fd80b;
+    font-weight: 500;
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+  .business-card .learn-more:hover {
+    color: #1a2236;
+    text-decoration: underline;
+  }
+  @media (max-width: 767px) {
+    .business-card {
+      padding: 1.2rem 0.7rem;
+    }
+  }
+</style>
   </head>
   <body>
     <div class="body-inner">
@@ -92,127 +143,56 @@ $kategori_portofolio = getKategoriPortofolio();
           <!-- Business Lines -->
           <div class="row">
             <div class="col-lg-4 col-md-6 mb-5">
-              <div class="ts-service-box">
+              <div class="business-card ts-service-box">
                 <div class="ts-service-image-wrapper">
-                  <img
-                    loading="lazy"
-                    class="w-100"
-                    src="images/services/service1.jpg"
-                    alt="service-image"
-                  />
+                  <img loading="lazy" class="w-100" src="images/services/service1.jpg" alt="service-image" />
                 </div>
                 <div class="d-flex">
                   <div class="ts-service-box-img">
-                    <i
-                      class="fas fa-shower"
-                      style="font-size: 48px; color: #3fd80b; margin-top: 10px"
-                    ></i>
+                    <i class="fas fa-shower" style="font-size: 48px; color: #3fd80b; margin-top: 10px"></i>
                   </div>
                   <div class="ts-service-info">
-                    <h3 class="service-box-title">
-                      <a href="portofolio.php?kategori=penyiraman_tambang"
-                        >Penyiraman Tambang</a
-                      >
-                    </h3>
-                    <p>
-                      Layanan penyiraman profesional untuk area tambang guna
-                      mengurangi debu dan menjaga kelembaban lingkungan kerja
-                      dengan teknologi dan peralatan terdepan.
-                    </p>
-                    <a
-                      class="learn-more d-inline-block"
-                      href="portofolio.php?kategori=penyiraman_tambang"
-                      aria-label="service-details"
-                      ><i class="fa fa-caret-right"></i> Lihat Portofolio</a
-                    >
+                    <h3 class="service-box-title"><a href="#">Penyiraman Tambang</a></h3>
+                    <p>Layanan penyiraman profesional untuk area tambang guna mengurangi debu dan menjaga kelembaban lingkungan kerja dengan teknologi dan peralatan terdepan.</p>
+                    <a class="learn-more d-inline-block" href="portofolio.php?kategori=penyiraman_tambang" aria-label="service-details"><i class="fa fa-caret-right"></i> Lihat Portofolio</a>
                   </div>
                 </div>
               </div>
-              <!-- Service1 end -->
             </div>
-            <!-- Col 1 end -->
-
             <div class="col-lg-4 col-md-6 mb-5">
-              <div class="ts-service-box">
+              <div class="business-card ts-service-box">
                 <div class="ts-service-image-wrapper">
-                  <img
-                    loading="lazy"
-                    class="w-100"
-                    src="images/services/service2.jpg"
-                    alt="service-image"
-                  />
+                  <img loading="lazy" class="w-100" src="images/services/service2.jpg" alt="service-image" />
                 </div>
                 <div class="d-flex">
                   <div class="ts-service-box-img">
-                    <i
-                      class="fas fa-seedling"
-                      style="font-size: 48px; color: #3fd80b; margin-top: 10px"
-                    ></i>
+                    <i class="fas fa-seedling" style="font-size: 48px; color: #3fd80b; margin-top: 10px"></i>
                   </div>
                   <div class="ts-service-info">
-                    <h3 class="service-box-title">
-                      <a href="portofolio.php?kategori=revegetasi_tambang"
-                        >Revegetasi Tambang</a
-                      >
-                    </h3>
-                    <p>
-                      Penanaman kembali vegetasi pada area tambang untuk
-                      mengembalikan keseimbangan ekosistem dan memulihkan
-                      kondisi lingkungan pasca penambangan.
-                    </p>
-                    <a
-                      class="learn-more d-inline-block"
-                      href="portofolio.php?kategori=revegetasi_tambang"
-                      aria-label="service-details"
-                      ><i class="fa fa-caret-right"></i> Lihat Portofolio</a
-                    >
+                    <h3 class="service-box-title"><a href="#">Revegetasi Tambang</a></h3>
+                    <p>Penanaman kembali vegetasi pada area tambang untuk mengembalikan keseimbangan ekosistem dan memulihkan kondisi lingkungan pasca penambangan.</p>
+                    <a class="learn-more d-inline-block" href="portofolio.php?kategori=revegetasi_tambang" aria-label="service-details"><i class="fa fa-caret-right"></i> Lihat Portofolio</a>
                   </div>
                 </div>
               </div>
-              <!-- Service2 end -->
             </div>
-            <!-- Col 2 end -->
-
             <div class="col-lg-4 col-md-6 mb-5">
-              <div class="ts-service-box">
+              <div class="business-card ts-service-box">
                 <div class="ts-service-image-wrapper">
-                  <img
-                    loading="lazy"
-                    class="w-100"
-                    src="images/services/service3.jpg"
-                    alt="service-image"
-                  />
+                  <img loading="lazy" class="w-100" src="images/services/service3.jpg" alt="service-image" />
                 </div>
                 <div class="d-flex">
                   <div class="ts-service-box-img">
-                    <i
-                      class="fas fa-cogs"
-                      style="font-size: 48px; color: #3fd80b; margin-top: 10px"
-                    ></i>
+                    <i class="fas fa-cogs" style="font-size: 48px; color: #3fd80b; margin-top: 10px"></i>
                   </div>
                   <div class="ts-service-info">
-                    <h3 class="service-box-title">
-                      <a href="portofolio.php?kategori=supporting_tambang"
-                        >Supporting Tambang</a
-                      >
-                    </h3>
-                    <p>
-                      Layanan pendukung operasional tambang termasuk maintenance
-                      peralatan, infrastruktur, dan berbagai kebutuhan
-                      operasional lainnya.
-                    </p>
-                    <a
-                      class="learn-more d-inline-block"
-                      href="portofolio.php?kategori=supporting_tambang"
-                      aria-label="service-details"
-                      ><i class="fa fa-caret-right"></i> Lihat Portofolio</a
-                    >
+                    <h3 class="service-box-title"><a href="#">Supporting Tambang</a></h3>
+                    <p>Layanan pendukung operasional tambang termasuk maintenance peralatan, infrastruktur, dan berbagai kebutuhan operasional lainnya.</p>
+                    <a class="learn-more d-inline-block" href="portofolio.php?kategori=supporting_tambang" aria-label="service-details"><i class="fa fa-caret-right"></i> Lihat Portofolio</a>
                   </div>
                 </div>
               </div>
-              <!-- Service3 end -->
             </div>
-            <!-- Col 3 end -->
           </div>
           <!-- Main row end -->
         </div>

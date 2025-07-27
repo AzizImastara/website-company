@@ -12,7 +12,7 @@ $kategori_portofolio = getKategoriPortofolio();
     <!-- Basic Page Needs
 ================================================== -->
     <meta charset="utf-8" />
-    <title>Beranda</title>
+    <title>PT Karya Mandiri Cakra Buana</title>
 
     <!-- Mobile Specific Metas
 ================================================== -->
@@ -55,24 +55,24 @@ $kategori_portofolio = getKategoriPortofolio();
       <div class="banner-carousel banner-carousel-1 mb-0">
         <div
           class="banner-carousel-item"
-          style="background-image: url(images/slider-main/bg1.jpg)"
+         style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('img/slider/slider1.JPG'); background-size: cover; background-position: center;"
         >
           <div class="slider-content">
             <div class="container h-100">
               <div class="row align-items-center h-100">
                 <div class="col-md-12 text-center">
                   <h2 class="slide-title" data-animation-in="slideInLeft">
-                    22 Years of excellence in
+                   General Contractor And Suppllier
                   </h2>
                   <h3 class="slide-sub-title" data-animation-in="slideInRight">
-                    Construction Industry
+                   PT KARYA MANDIRI CAKRA BUANA
                   </h3>
                   <p data-animation-in="slideInLeft" data-duration-in="1.2">
-                    <a href="#" class="slider btn btn-primary"
-                      >Our Services</a
+                    <a href="layanan.php" class="slider btn btn-primary"
+                      >Layanan kami</a
                     >
-                    <a href="#" class="slider btn btn-primary border"
-                      >Contact Now</a
+                    <a href="contact.php" class="slider btn btn-primary border"
+                      >Hubungi kami</a
                     >
                   </p>
                 </div>
@@ -90,19 +90,19 @@ $kategori_portofolio = getKategoriPortofolio();
               <div class="row align-items-center h-100">
                 <div class="col-md-12">
                   <h2 class="slide-title-box" data-animation-in="slideInDown">
-                    World Class Service
+                   PT Karya Mandiri Cakra Buana
                   </h2>
                   <h3 class="slide-title" data-animation-in="fadeIn">
-                    When Service Matters
+                    Socorejo, Tuban, Jawa Timur, Indonesia
                   </h3>
                   <h3 class="slide-sub-title" data-animation-in="slideInLeft">
-                    Your Choice is Simple
+                    Jasa Kontruksi
                   </h3>
                   <p data-animation-in="slideInRight">
                     <a
-                      href="services.html"
+                      href="portofolio.php"
                       class="slider btn btn-primary border"
-                      >Our Services</a
+                      >Proyek</a
                     >
                   </p>
                 </div>
@@ -115,35 +115,35 @@ $kategori_portofolio = getKategoriPortofolio();
           class="banner-carousel-item"
           style="background-image: url(images/slider-main/bg3.jpg)"
         >
-          <div class="slider-content text-right">
+          <div class="slider-content text-left">
             <div class="container h-100">
               <div class="row align-items-center h-100">
                 <div class="col-md-12">
                   <h2 class="slide-title" data-animation-in="slideInDown">
-                    Meet Our Engineers
+                    General contractor and supplier
                   </h2>
                   <h3 class="slide-sub-title" data-animation-in="fadeIn">
-                    We believe sustainability
+                   PT KARYA MANDIRI CAKRA BUANA
                   </h3>
                   <p
                     class="slider-description lead"
                     data-animation-in="slideInRight"
                   >
-                    We will deal with your failure that determines how you
-                    achieve success.
+                    Solusi Konstruksi & Pengadaan Profesional
+Membangun masa depan dengan kualitas dan inovasi
                   </p>
                   <div data-animation-in="slideInLeft">
                     <a
-                      href="contact.html"
+                      href="contact.php"
                       class="slider btn btn-primary"
                       aria-label="contact-with-us"
-                      >Get Free Quote</a
+                      >Hubungi kami</a
                     >
                     <a
-                      href="about.html"
+                      href="portofolio.php"
                       class="slider btn btn-primary border"
                       aria-label="learn-more-about-us"
-                      >Learn more</a
+                      >Portofolio</a
                     >
                   </div>
                 </div>
@@ -160,14 +160,14 @@ $kategori_portofolio = getKategoriPortofolio();
               <div class="col-md-8 text-center text-md-left">
                 <div class="call-to-action-text">
                   <h3 class="action-title">
-                    We understand your needs on construction
+                    General Contractor and supplier berkualitas
                   </h3>
                 </div>
               </div>
               <!-- Col end -->
               <div class="col-md-4 text-center text-md-right mt-3 mt-md-0">
                 <div class="call-to-action-btn">
-                  <a class="btn btn-dark" href="#">Request Quote</a>
+                  <a class="btn btn-dark" href="contact.php">Hubungi Kami</a>
                 </div>
               </div>
               <!-- col end -->
@@ -186,13 +186,10 @@ $kategori_portofolio = getKategoriPortofolio();
             <div class="col-lg-6">
               <div class="ts-intro">
                 <h2 class="into-title">About Us</h2>
-                <h3 class="into-sub-title">We deliver landmark projects</h3>
+                <h3 class="into-sub-title">PT Karya Mandiri Cakra Buana</h3>
                 <p>
-                  We are rethoric question ran over her cheek When she reached
-                  the first hills of the Italic Mountains, she had a last view
-                  back on the skyline of her hometown Bookmarksgrove, the
-                  headline of Alphabet Village and the subline of her own road,
-                  the Line Lane.
+                  PT Karya Mandiri Cakra Buana adalah perusahaan konstruksi dan pengadaan profesional yang berbasis di Kabupaten Tuban, Jawa Timur. Sebagai anggota dari Asosiasi Kontraktor Nasional (ASKONAS), kami berdedikasi untuk memberikan solusi terbaik dalam industri konstruksi dan pertambangan dengan pengalaman luas serta tim ahli berkualitas.
+                  Kami menyediakan layanan komprehensif mulai dari konstruksi jalan dan jembatan hingga reklamasi tambang dan perkuatan geotextile. Komitmen kami terhadap kualitas, keselamatan, dan kepuasan klien telah menjadikan kami mitra terpercaya dalam berbagai proyek berskala besar di seluruh Indonesia, dengan standar mutu tinggi, profesionalisme, dan integritas.
                 </p>
               </div>
               <!-- Intro box end -->
@@ -207,7 +204,7 @@ $kategori_portofolio = getKategoriPortofolio();
                     </span>
                     <div class="ts-service-box-content">
                       <h3 class="service-box-title">
-                        We've Repution for Excellence
+                        Reputasi unggul dan berkualitas
                       </h3>
                     </div>
                   </div>
@@ -221,7 +218,7 @@ $kategori_portofolio = getKategoriPortofolio();
                       <i class="fas fa-sliders-h"></i>
                     </span>
                     <div class="ts-service-box-content">
-                      <h3 class="service-box-title">We Build Partnerships</h3>
+                      <h3 class="service-box-title">membangun kemitraan berkelanjutan</h3>
                     </div>
                   </div>
                   <!-- Service 2 end -->
@@ -237,7 +234,7 @@ $kategori_portofolio = getKategoriPortofolio();
                       <i class="fas fa-thumbs-up"></i>
                     </span>
                     <div class="ts-service-box-content">
-                      <h3 class="service-box-title">Guided by Commitment</h3>
+                      <h3 class="service-box-title">Berpengalaman</h3>
                     </div>
                   </div>
                   <!-- Service 1 end -->
@@ -250,7 +247,7 @@ $kategori_portofolio = getKategoriPortofolio();
                       <i class="fas fa-users"></i>
                     </span>
                     <div class="ts-service-box-content">
-                      <h3 class="service-box-title">A Team of Professionals</h3>
+                      <h3 class="service-box-title">Team Profesional</h3>
                     </div>
                   </div>
                   <!-- Service 2 end -->
@@ -262,11 +259,9 @@ $kategori_portofolio = getKategoriPortofolio();
             <!-- Col end -->
 
             <div class="col-lg-6 mt-4 mt-lg-0">
-              <h3 class="into-sub-title">Our Values</h3>
+              <h3 class="into-sub-title">Our values</h3>
               <p>
-                Minim Austin 3 wolf moon scenester aesthetic, umami odio
-                pariatur bitters. Pop-up occaecat taxidermy street art, tattooed
-                beard literally.
+                Kami menjunjung tinggi prinsip-prinsip berikut dalam menjalankan setiap proyek dan kerja sama:
               </p>
 
               <div class="accordion accordion-group" id="our-values-accordion">
@@ -293,9 +288,7 @@ $kategori_portofolio = getKategoriPortofolio();
                     data-parent="#our-values-accordion"
                   >
                     <div class="card-body">
-                      Anim pariatur cliche reprehenderit, enim eiusmod high life
-                      accusamus terry richardson ad squid. 3 wolf moon officia
-                      aute, non cupidata
+                      Kami mengutamakan keselamatan dalam setiap aspek pekerjaan kami. Prosedur keselamatan kerja yang ketat kami terapkan untuk melindungi tenaga kerja, mitra, dan lingkungan sekitar.
                     </div>
                   </div>
                 </div>
@@ -321,9 +314,7 @@ $kategori_portofolio = getKategoriPortofolio();
                     data-parent="#our-values-accordion"
                   >
                     <div class="card-body">
-                      Anim pariatur cliche reprehenderit, enim eiusmod high life
-                      accusamus terry richardson ad squid. 3 wolf moon officia
-                      aute, non cupidata
+                      Kepuasan pelanggan adalah prioritas kami. Kami berkomitmen untuk memberikan pelayanan terbaik, responsif, dan solusi yang sesuai dengan kebutuhan klien.
                     </div>
                   </div>
                 </div>
@@ -349,9 +340,7 @@ $kategori_portofolio = getKategoriPortofolio();
                     data-parent="#our-values-accordion"
                   >
                     <div class="card-body">
-                      Anim pariatur cliche reprehenderit, enim eiusmod high life
-                      accusamus terry richardson ad squid. 3 wolf moon officia
-                      aute, non cupidata
+                      Kami menjunjung tinggi kejujuran, transparansi, dan tanggung jawab dalam setiap tindakan dan keputusan yang kami ambil.
                     </div>
                   </div>
                 </div>
@@ -395,7 +384,7 @@ $kategori_portofolio = getKategoriPortofolio();
                 </div>
                 <div class="ts-facts-content">
                   <h2 class="ts-facts-num">
-                    <span class="counterUp" data-count="647">0</span>
+                    <span class="counterUp" data-count="300">0</span>
                   </h2>
                   <h3 class="ts-facts-title">Staff Members</h3>
                 </div>
@@ -446,8 +435,8 @@ $kategori_portofolio = getKategoriPortofolio();
         <div class="container">
           <div class="row text-center">
             <div class="col-12">
-              <h2 class="section-title">We Are Specialists In</h2>
-              <h3 class="section-sub-title">What We Do</h3>
+              <h2 class="section-title">PT Karya Mandiri Cakra Buana</h2>
+              <h3 class="section-sub-title">Layanan Umum dan Layanan Pendukung</h3>
             </div>
           </div>
           <!--/ Title row end -->
@@ -458,16 +447,15 @@ $kategori_portofolio = getKategoriPortofolio();
                 <div class="ts-service-box-img">
                   <i
                     class="fas fa-home"
-                    style="font-size: 48px; color: #3fd80b"
+                    style="font-size: 48px; color: #202820"
                   ></i>
                 </div>
                 <div class="ts-service-box-info">
                   <h3 class="service-box-title">
-                    <a href="#">Home Construction</a>
+                    <a href="#">Kontruksi Bangunan</a>
                   </h3>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipiscing elit
-                    Integer adipiscing erat
+                    Pembangunan rumah tinggal, gedung, dan fasilitas umum dengan standar mutu tinggi dan efisiensi waktu kerja.
                   </p>
                 </div>
               </div>
@@ -477,16 +465,15 @@ $kategori_portofolio = getKategoriPortofolio();
                 <div class="ts-service-box-img">
                   <i
                     class="fas fa-hammer"
-                    style="font-size: 48px; color: #3fd80b"
+                    style="font-size: 48px; color: #202820"
                   ></i>
                 </div>
                 <div class="ts-service-box-info">
                   <h3 class="service-box-title">
-                    <a href="#">Building Remodels</a>
+                    <a href="#">PENYIRAMAN TAMBANG</a>
                   </h3>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipiscing elit
-                    Integer adipiscing erat
+                    Mengurangi debu dan menjaga kelembaban area tambang untuk menciptakan lingkungan kerja yang aman dan nyaman.
                   </p>
                 </div>
               </div>
@@ -496,16 +483,15 @@ $kategori_portofolio = getKategoriPortofolio();
                 <div class="ts-service-box-img">
                   <i
                     class="fas fa-paint-brush"
-                    style="font-size: 48px; color: #3fd80b"
+                    style="font-size: 48px; color: #202820"
                   ></i>
                 </div>
                 <div class="ts-service-box-info">
                   <h3 class="service-box-title">
-                    <a href="#">Interior Design</a>
+                    <a href="#"> REGRETERASI TAMBANG</a>
                   </h3>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipiscing elit
-                    Integer adipiscing erat
+                  Menjamin area tambang dapat digunakan kembali secara optimal dengan mematuhi ketentuan dan regulasi yang berlaku.
                   </p>
                 </div>
               </div>
@@ -517,16 +503,15 @@ $kategori_portofolio = getKategoriPortofolio();
                 <div class="ts-service-box-img">
                   <i
                     class="fas fa-building"
-                    style="font-size: 48px; color: #3fd80b"
+                    style="font-size: 48px; color: #202820"
                   ></i>
                 </div>
                 <div class="ts-service-box-info">
                   <h3 class="service-box-title">
-                    <a href="#">Exterior Design</a>
+                    <a href="#"> PERBAIKAN TOWERLINE</a>
                   </h3>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipiscing elit
-                    Integer adipiscing erat
+                   Perawatan dan perbaikan jaringan listrik guna mendukung operasional tambang tanpa hambatan.
                   </p>
                 </div>
               </div>
@@ -536,14 +521,13 @@ $kategori_portofolio = getKategoriPortofolio();
                 <div class="ts-service-box-img">
                   <i
                     class="fas fa-wrench"
-                    style="font-size: 48px; color: #3fd80b"
+                    style="font-size: 48px; color: #202820"
                   ></i>
                 </div>
                 <div class="ts-service-box-info">
-                  <h3 class="service-box-title"><a href="#">Renovation</a></h3>
+                  <h3 class="service-box-title"><a href="#">INSTALASI & PERBAIKAN CCTV</a></h3>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipiscing elit
-                    Integer adipiscing erat
+                    Menjaga sistem keamanan area tambang agar selalu aktif dan berfungsi optimal.
                   </p>
                 </div>
               </div>
@@ -553,16 +537,15 @@ $kategori_portofolio = getKategoriPortofolio();
                 <div class="ts-service-box-img">
                   <i
                     class="fas fa-shield-alt"
-                    style="font-size: 48px; color: #3fd80b"
+                    style="font-size: 48px; color: #202820"
                   ></i>
                 </div>
                 <div class="ts-service-box-info">
                   <h3 class="service-box-title">
-                    <a href="#">Safety Management</a>
+                    <a href="#">PEMBERSIHAN SEMAK & VEGETASI LIAR</a>
                   </h3>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipiscing elit
-                    Integer adipiscing erat
+                    Menjaga area tambang tetap bersih dan aman dari potensi bahaya atau gangguan operasional.
                   </p>
                 </div>
               </div>
@@ -580,7 +563,7 @@ $kategori_portofolio = getKategoriPortofolio();
         <div class="container">
           <div class="row text-center">
             <div class="col-lg-12">
-              <h3 class="section-sub-title">Portfolio Kami</h3>
+              <h3 class="section-sub-title">Portofolio</h3>
               <p class="text-muted mb-5">Lihat beberapa proyek terbaru yang telah kami kerjakan</p>
             </div>
           </div>
@@ -609,7 +592,7 @@ $kategori_portofolio = getKategoriPortofolio();
                     </div>
                     <div class="card-body">
                       <div class="portfolio-meta mb-2">
-                        <span class="badge p-2" style="background-color: #3fd80b; color: #ffffff;">
+                        <span class="badge p-2" style="background-color: #202820; color: #ffffff;">
                           <?php echo $kategori_portofolio[$portfolio['kategori']]; ?>
                         </span>
                         <small class="text-muted float-end">
@@ -666,10 +649,7 @@ $kategori_portofolio = getKategoriPortofolio();
                 <div class="item">
                   <div class="quote-item">
                     <span class="quote-text">
-                      Question ran over her cheek When she reached the first
-                      hills of the Italic Mountains, she had a last view back on
-                      the skyline of her hometown Bookmarksgrove, the headline
-                      of Alphabet Village and the subline of her own road.
+                      "Kinerja profesional PT KMCB dalam penyiraman tambang dan perbaikan infrastruktur sangat membantu kelancaran aktivitas operasional kami. Mereka memahami kebutuhan industri tambang secara menyeluruh dan mampu mengeksekusi pekerjaan dengan efisien."
                     </span>
 
                     <div class="quote-item-footer">
@@ -680,8 +660,8 @@ $kategori_portofolio = getKategoriPortofolio();
                         alt="testimonial"
                       />
                       <div class="quote-item-info">
-                        <h3 class="quote-author">Gabriel Denis</h3>
-                        <span class="quote-subtext">Chairman, OKT</span>
+                        <h3 class="quote-author">Semen Indonesia Group</h3>
+                        <span class="quote-subtext"></span>
                       </div>
                     </div>
                   </div>
@@ -692,10 +672,7 @@ $kategori_portofolio = getKategoriPortofolio();
                 <div class="item">
                   <div class="quote-item">
                     <span class="quote-text">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                      sed do eiusmod tempor inci done idunt ut labore et dolore
-                      magna aliqua. Ut enim ad minim veniam, quis nostrud
-                      exercitoa tion ullamco laboris nisi aliquip consequat.
+                  "PT Karya Mandiri Cakra Buana telah menjadi mitra kerja yang sangat andal dalam mendukung operasional kami di lapangan. Kualitas layanan, ketepatan waktu, dan standar keselamatan mereka sangat sesuai dengan ekspektasi kami di industri bahan bangunan."
                     </span>
 
                     <div class="quote-item-footer">
@@ -706,8 +683,8 @@ $kategori_portofolio = getKategoriPortofolio();
                         alt="testimonial"
                       />
                       <div class="quote-item-info">
-                        <h3 class="quote-author">Weldon Cash</h3>
-                        <span class="quote-subtext">CFO, First Choice</span>
+                        <h3 class="quote-author">Holcim Indonesia</h3>
+                        <span class="quote-subtext"></span>
                       </div>
                     </div>
                   </div>
@@ -718,10 +695,7 @@ $kategori_portofolio = getKategoriPortofolio();
                 <div class="item">
                   <div class="quote-item">
                     <span class="quote-text">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                      sed do eiusmod tempor inci done idunt ut labore et dolore
-                      magna aliqua. Ut enim ad minim veniam, quis nostrud
-                      exercitoa tion ullamco laboris nisi ut commodo consequat.
+                      "Kami mengapresiasi komitmen PT Karya Mandiri Cakra Buana dalam menjalankan reklamasi dan regreterasi tambang sesuai kaidah lingkungan hidup. Perusahaan ini menunjukkan keseriusan dalam mendukung keberlanjutan dan rehabilitasi lahan pasca tambang."
                     </span>
 
                     <div class="quote-item-footer">
@@ -732,8 +706,8 @@ $kategori_portofolio = getKategoriPortofolio();
                         alt="testimonial"
                       />
                       <div class="quote-item-info">
-                        <h3 class="quote-author">Minter Puchan</h3>
-                        <span class="quote-subtext">Director, AKT</span>
+                        <h3 class="quote-author">Kementerian Lingkungan Hidup / BPLH</h3>
+                        <span class="quote-subtext"></span>
                       </div>
                     </div>
                   </div>

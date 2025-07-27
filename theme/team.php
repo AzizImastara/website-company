@@ -56,15 +56,6 @@
               <div class="col-lg-12">
                 <div class="banner-heading">
                   <h1 class="banner-title">Struktur Organisasi</h1>
-                  <!-- <nav aria-label="breadcrumb">
-                    <ol class="breadcrumb justify-content-center">
-                      <li class="breadcrumb-item"><a href="#">Home</a></li>
-                      <li class="breadcrumb-item"><a href="#">company</a></li>
-                      <li class="breadcrumb-item active" aria-current="page">
-                        Our Team
-                      </li>
-                    </ol>
-                  </nav> -->
                 </div>
               </div>
               <!-- Col end -->
@@ -79,239 +70,247 @@
 
       <section id="main-container" class="main-container pb-4">
         <div class="container">
-          <div class="row text-center">
-            <div class="col-lg-12">
-              <h3 class="section-sub-title">Our Leaderships</h3>
+          <h3 class="section-sub-title text-center mb-5">Struktur Organisasi PT KMCB</h3>
+          <div class="org-chart-wrapper-modern">
+            <div class="org-level org-level-1">
+              <div class="org-card">
+                <img src="img/Orang/Amin Thohari, ST.Direktur.jpg" alt="Amin Tohari, ST" class="org-img-modern" />
+                <div class="org-info">
+                  <div class="org-name">AMIN TOHARI, ST</div>
+                  <div class="org-title">DIREKTUR UTAMA</div>
+                </div>
+              </div>
+            </div>
+            <div class="org-connector-vertical"></div>
+            <div class="org-level org-level-2">
+              <div class="org-card">
+                <img src="img/Orang/Amin Thohari, ST.Direktur.jpg" alt="Eko Susanti" class="org-img-modern" />
+                <div class="org-info">
+                  <div class="org-name">EKO SUSANTI</div>
+                  <div class="org-title">KOMISARIS</div>
+                </div>
+              </div>
+            </div>
+            <div class="org-connector-vertical"></div>
+            <div class="org-level org-level-3">
+              <div class="org-card">
+                <img src="img/Orang/Amin Thohari, ST.Direktur.jpg" alt="Anik Dwi Susanti" class="org-img-modern" />
+                <div class="org-info">
+                  <div class="org-name">ANIK DWI SUSANTI</div>
+                  <div class="org-title">ADMINISTRASI</div>
+                </div>
+              </div>
+            </div>
+            <div class="org-connector-vertical"></div>
+            <div class="org-level org-level-4">
+              <div class="org-card">
+                <img src="img/Orang/Amin Thohari, ST.Direktur.jpg" alt="Luthfi Bayu Permana" class="org-img-modern" />
+                <div class="org-info">
+                  <div class="org-name">LUTHFI BAYU PERMANA</div>
+                  <div class="org-title">K3</div>
+                </div>
+              </div>
+            </div>
+            <div class="org-connector-vertical"></div>
+            <div class="org-level org-level-5 org-multi">
+              <div class="org-card-wrap">
+                <div class="org-card">
+                  <img src="img/Orang/Amin Thohari, ST.Direktur.jpg" alt="Gumtro B.P, ST" class="org-img-modern" />
+                  <div class="org-info">
+                    <div class="org-name">GUMTRO B.P, ST</div>
+                    <div class="org-title">SPV SIPIL</div>
+                  </div>
+                </div>
+              </div>
+              <div class="org-card-wrap org-card-wrap-center">
+                <div class="org-card">
+                  <img src="img/Orang/Amin Thohari, ST.Direktur.jpg" alt="Ahmad Faizun C.U" class="org-img-modern" />
+                  <div class="org-info">
+                    <div class="org-name">AHMAD FAIZUN C.U</div>
+                    <div class="org-title">LOGISTIK</div>
+                  </div>
+                </div>
+                <div class="org-branch-horizontal">
+                  <div class="org-branch-left"></div>
+                  <div class="org-branch-right"></div>
+                </div>
+                <div class="org-connector-vertical"></div>
+              </div>
+              <div class="org-card-wrap">
+                <div class="org-card">
+                  <img src="img/Orang/Amin Thohari, ST.Direktur.jpg" alt="Imam Baihaqi, ST" class="org-img-modern" />
+                  <div class="org-info">
+                    <div class="org-name">IMAM BAIHAQI, ST</div>
+                    <div class="org-title">SPV MEKANIK</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- <div class="org-connector-horizontal"></div> -->
+            <div class="org-level org-level-6">
+              <div class="org-card">
+                <img src="img/Orang/Amin Thohari, ST.Direktur.jpg" alt="Suyadi" class="org-img-modern" />
+                <div class="org-info">
+                  <div class="org-name">SUYADI</div>
+                  <div class="org-title">KOORDINATOR LAPANGAN</div>
+                </div>
+              </div>
+            </div>
+            <div class="org-connector-vertical"></div>
+            <div class="org-level org-level-7">
+              <div class="org-card">
+                <img src="img/Orang/Amin Thohari, ST.Direktur.jpg" alt="Tenaga Kerja" class="org-img-modern" />
+                <div class="org-info">
+                  <div class="org-name">TENAGA KERJA</div>
+                </div>
+              </div>
             </div>
           </div>
-          <!--/ Title row end -->
-
-          <div class="row justify-content-center">
-            <div class="col-lg-3 col-sm-6 mb-5">
-              <div class="ts-team-wrapper">
-                <div class="team-img-wrapper">
-                  <img
-                    loading="lazy"
-                    src="images/team/team1.jpg"
-                    class="img-fluid"
-                    alt="team-img"
-                  />
-                </div>
-                <div class="ts-team-content-classic">
-                  <h3 class="ts-name">Nats Stenman</h3>
-                  <p class="ts-designation">Chief Operating Officer</p>
-                  <p class="ts-description">
-                    Nats Stenman began his career in construction with boots on
-                    the ground
-                  </p>
-                  <div class="team-social-icons">
-                    <a target="_blank" href="#"
-                      ><i class="fab fa-facebook-f"></i
-                    ></a>
-                    <a target="_blank" href="#"
-                      ><i class="fab fa-twitter"></i
-                    ></a>
-                    <a target="_blank" href="#"
-                      ><i class="fab fa-linkedin"></i
-                    ></a>
-                  </div>
-                  <!--/ social-icons-->
-                </div>
-              </div>
-              <!--/ Team wrapper 1 end -->
-            </div>
-            <!-- Col end -->
-
-            <div class="col-lg-3 col-sm-6 mb-5">
-              <div class="ts-team-wrapper">
-                <div class="team-img-wrapper">
-                  <img
-                    loading="lazy"
-                    src="images/team/team2.jpg"
-                    class="img-fluid"
-                    alt="team-img"
-                  />
-                </div>
-                <div class="ts-team-content-classic">
-                  <h3 class="ts-name">ANGELA LYOUER</h3>
-                  <p class="ts-designation">Innovation Officer</p>
-                  <p class="ts-description">
-                    Nats Stenman began his career in construction with boots on
-                    the ground
-                  </p>
-                  <div class="team-social-icons">
-                    <a target="_blank" href="#"
-                      ><i class="fab fa-twitter"></i
-                    ></a>
-                    <a target="_blank" href="#"
-                      ><i class="fab fa-google-plus"></i
-                    ></a>
-                    <a target="_blank" href="#"
-                      ><i class="fab fa-linkedin"></i
-                    ></a>
-                  </div>
-                  <!--/ social-icons-->
-                </div>
-              </div>
-              <!--/ Team wrapper 2 end -->
-            </div>
-            <!-- Col end -->
-          </div>
-          <!-- Content row 1 end -->
-
-          <div class="row">
-            <div class="col-lg-3 col-md-4 col-sm-6 mb-5">
-              <div class="ts-team-wrapper">
-                <div class="team-img-wrapper">
-                  <img
-                    loading="lazy"
-                    src="images/team/team3.jpg"
-                    class="img-fluid"
-                    alt="team-img"
-                  />
-                </div>
-                <div class="ts-team-content-classic">
-                  <h3 class="ts-name">Mark Conter</h3>
-                  <p class="ts-designation">Safety Officer</p>
-                  <p class="ts-description">
-                    Nats Stenman began his career in construction with boots on
-                    the ground
-                  </p>
-                  <div class="team-social-icons">
-                    <a target="_blank" href="#"
-                      ><i class="fab fa-facebook-f"></i
-                    ></a>
-                    <a target="_blank" href="#"
-                      ><i class="fab fa-twitter"></i
-                    ></a>
-                    <a target="_blank" href="#"
-                      ><i class="fab fa-google-plus"></i
-                    ></a>
-                    <a target="_blank" href="#"
-                      ><i class="fab fa-linkedin"></i
-                    ></a>
-                  </div>
-                  <!--/ social-icons-->
-                </div>
-              </div>
-              <!--/ Team wrapper 3 end -->
-            </div>
-            <!-- Col end -->
-
-            <div class="col-lg-3 col-md-4 col-sm-6 mb-5">
-              <div class="ts-team-wrapper">
-                <div class="team-img-wrapper">
-                  <img
-                    loading="lazy"
-                    src="images/team/team4.jpg"
-                    class="img-fluid"
-                    alt="team-img"
-                  />
-                </div>
-                <div class="ts-team-content-classic">
-                  <h3 class="ts-name">AYESHA STEWART</h3>
-                  <p class="ts-designation">Finance Officer</p>
-                  <p class="ts-description">
-                    Nats Stenman began his career in construction with boots on
-                    the ground
-                  </p>
-                  <div class="team-social-icons">
-                    <a target="_blank" href="#"
-                      ><i class="fab fa-facebook-f"></i
-                    ></a>
-                    <a target="_blank" href="#"
-                      ><i class="fab fa-twitter"></i
-                    ></a>
-                    <a target="_blank" href="#"
-                      ><i class="fab fa-linkedin"></i
-                    ></a>
-                  </div>
-                  <!--/ social-icons-->
-                </div>
-              </div>
-              <!--/ Team wrapper 4 end -->
-            </div>
-            <!-- Col end -->
-
-            <div class="col-lg-3 col-md-4 col-sm-6 mb-5">
-              <div class="ts-team-wrapper">
-                <div class="team-img-wrapper">
-                  <img
-                    loading="lazy"
-                    src="images/team/team5.jpg"
-                    class="img-fluid"
-                    alt="team-img"
-                  />
-                </div>
-                <div class="ts-team-content-classic">
-                  <h3 class="ts-name">Dave Clarkte</h3>
-                  <p class="ts-designation">Civil Engineer</p>
-                  <p class="ts-description">
-                    Nats Stenman began his career in construction with boots on
-                    the ground
-                  </p>
-                  <div class="team-social-icons">
-                    <a target="_blank" href="#"
-                      ><i class="fab fa-twitter"></i
-                    ></a>
-                    <a target="_blank" href="#"
-                      ><i class="fab fa-google-plus"></i
-                    ></a>
-                    <a target="_blank" href="#"
-                      ><i class="fab fa-linkedin"></i
-                    ></a>
-                  </div>
-                  <!--/ social-icons-->
-                </div>
-              </div>
-              <!--/ Team wrapper 5 end -->
-            </div>
-            <!-- Col end -->
-
-            <div class="col-lg-3 col-md-4 col-sm-6 mb-5">
-              <div class="ts-team-wrapper">
-                <div class="team-img-wrapper">
-                  <img
-                    loading="lazy"
-                    src="images/team/team6.jpg"
-                    class="img-fluid"
-                    alt="team-img"
-                  />
-                </div>
-                <div class="ts-team-content-classic">
-                  <h3 class="ts-name">Elton Joe</h3>
-                  <p class="ts-designation">Site Supervisor</p>
-                  <p class="ts-description">
-                    Nats Stenman began his career in construction with boots on
-                    the ground
-                  </p>
-                  <div class="team-social-icons">
-                    <a target="_blank" href="#"
-                      ><i class="fab fa-facebook-f"></i
-                    ></a>
-                    <a target="_blank" href="#"
-                      ><i class="fab fa-twitter"></i
-                    ></a>
-                    <a target="_blank" href="#"
-                      ><i class="fab fa-google-plus"></i
-                    ></a>
-                    <a target="_blank" href="#"
-                      ><i class="fab fa-linkedin"></i
-                    ></a>
-                  </div>
-                  <!--/ social-icons-->
-                </div>
-              </div>
-              <!--/ Team wrapper 6 end -->
-            </div>
-            <!-- Col end -->
-          </div>
-          <!-- Content row end -->
         </div>
-        <!-- Container end -->
       </section>
-      <!-- Main container end -->
-
+      <style>
+        .org-chart-wrapper-modern {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          margin: 0 auto 40px auto;
+          max-width: 1200px;
+        }
+        .org-level {
+          display: flex;
+          justify-content: center;
+          gap: 48px;
+          margin-bottom: 0;
+        }
+        .org-level-5.org-multi {
+          gap: 48px;
+        }
+        .org-card-wrap {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          position: relative;
+        }
+        .org-card-wrap-center {
+          z-index: 2;
+        }
+        .org-card {
+          background: linear-gradient(135deg, #f8fafc 0%, #e0e7ef 100%);
+          border-radius: 18px;
+          box-shadow: 0 4px 24px rgba(44,62,80,0.13);
+          padding: 24px 12px 16px 12px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          min-width: 300px;
+          max-width: 300px;
+          min-height: 300px;
+          max-height: 300px;
+          border: 2.5px solid #eaeaea;
+          margin: 0 12px;
+          transition: box-shadow 0.2s, transform 0.2s;
+        }
+        .org-card:hover {
+          box-shadow: 0 8px 32px rgba(44,62,80,0.18);
+          transform: scale(1.04);
+        }
+        .org-img-modern {
+          width: 140px;
+          height: 140px;
+          object-fit: cover;
+          border-radius: 50%;
+          border: 4px solid #b0c4de;
+          background: #f8f8f8;
+          margin-bottom: 16px;
+        }
+        .org-info {
+          text-align: center;
+        }
+        .org-name {
+          font-weight: 800;
+          font-size: 1.35rem;
+          margin-bottom: 6px;
+        }
+        .org-title {
+          font-size: 1.12rem;
+          color: #3b3b3b;
+          margin-bottom: 4px;
+        }
+        .org-card-connector {
+          width: 4px;
+          height: 32px;
+          background: #b0c4de;
+          margin: 0 auto;
+        }
+        .org-branch-horizontal {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          width: 430px;
+          height: 0;
+          display: flex;
+          justify-content: space-between;
+          pointer-events: none;
+        }
+        .org-branch-left,
+        .org-branch-right {
+          width: 60px;
+          height: 4px;
+          background: #b0c4de;
+        }
+        .org-connector-vertical {
+          width: 4px;
+          height: 48px;
+          background: #b0c4de;
+          margin: 0 auto;
+        }
+        .org-connector-horizontal {
+          width: 90%;
+          max-width: 900px;
+          height: 4px;
+          background: #b0c4de;
+          margin: 0 auto 0 auto;
+        }
+        @media (max-width: 1100px) {
+          .org-chart-wrapper-modern {
+            max-width: 98vw;
+          }
+          .org-level-5.org-multi {
+            flex-direction: column;
+            gap: 0;
+          }
+          .org-connector-horizontal {
+            width: 4px;
+            height: 48px;
+            max-width: unset;
+          }
+          .org-branch-horizontal {
+            display: none !important;
+          }
+          .org-branch-left, .org-branch-right {
+            width: 30px;
+          }
+        }
+        @media (max-width: 600px) {
+          .org-card {
+            min-width: 90vw;
+            max-width: 98vw;
+            min-height: 320px;
+            max-height: 340px;
+          }
+          .org-img-modern {
+            width: 110px;
+            height: 110px;
+          }
+          .org-branch-horizontal {
+            width: 100px;
+          }
+          .org-branch-left, .org-branch-right {
+            width: 18px;
+          }
+        }
+      </style>
       <!-- Footer Component Container -->
       <div id="footer-container">
         <!-- Footer will be loaded here via JavaScript -->
