@@ -24,12 +24,18 @@ try {
     $error_message = 'Terjadi kesalahan saat mengambil data.';
 }
 
-include 'includes/header.php';
+// Hitung jumlah pesan kontak masuk
+$jumlah_kontak = 0;
+$result_kontak = $pdo->query('SELECT COUNT(*) as total FROM kontak_masuk');
+if ($result_kontak && $row = $result_kontak->fetch()) {
+  $jumlah_kontak = $row['total'];
+}
 ?>
 
+<?php include 'includes/header.php'; ?>
+
 <div class="row">
-    <!-- Statistics Cards -->
-    <div class="col-md-6 mb-4">
+    <div class="col-md-4 mb-4">
         <div class="card text-white bg-primary">
             <div class="card-body">
                 <div class="d-flex justify-content-between">
@@ -50,7 +56,7 @@ include 'includes/header.php';
         </div>
     </div>
     
-    <div class="col-md-6 mb-4">
+    <div class="col-md-4 mb-4">
         <div class="card text-white bg-success">
             <div class="card-body">
                 <div class="d-flex justify-content-between">
@@ -65,6 +71,27 @@ include 'includes/header.php';
                 <div class="mt-2">
                     <a href="pages/portofolio/index.php" class="text-white text-decoration-none">
                         <small>Kelola Portofolio <i class="fas fa-arrow-right"></i></small>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4 mb-4">
+        <div class="card text-white bg-info">
+            <div class="card-body">
+                <div class="d-flex justify-content-between">
+                    <div>
+                        <h5 class="card-title">Pesan Kontak</h5>
+                        <h2 class="mb-0"><?php echo $jumlah_kontak; ?></h2>
+                    </div>
+                    <div class="align-self-center">
+                        <i class="fa fa-envelope fa-3x opacity-50"></i>
+                    </div>
+                </div>
+                <div class="mt-2">
+                    <a href="pages/pesan/kontak_masuk.php" class="text-white text-decoration-none">
+                        <small>Lihat Pesan <i class="fa fa-arrow-right"></i></small>
                     </a>
                 </div>
             </div>

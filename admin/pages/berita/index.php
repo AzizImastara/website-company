@@ -2,6 +2,11 @@
 require_once '../../config/database.php';
 checkLogin();
 
+// Inisialisasi base_path
+$current_path = $_SERVER['PHP_SELF'];
+$is_in_pages = strpos($current_path, '/pages/') !== false;
+$base_path = $is_in_pages ? '../../' : '';
+
 $page_title = 'Kelola Berita';
 
 // Handle delete
@@ -96,7 +101,7 @@ include '../../includes/header.php';
         <h5 class="mb-0">
             <i class="fas fa-newspaper me-2"></i>Daftar Berita
         </h5>
-        <a href="create.php" class="btn btn-primary">
+        <a href="<?php echo $base_path; ?>pages/berita/create.php" class="btn btn-primary">
             <i class="fas fa-plus me-1"></i>Tambah Berita
         </a>
     </div>
@@ -114,7 +119,7 @@ include '../../includes/header.php';
                         <i class="fas fa-search"></i> Cari
                     </button>
                     <?php if (!empty($search)): ?>
-                        <a href="index.php" class="btn btn-outline-secondary">
+                        <a href="<?php echo $base_path; ?>pages/berita/index.php" class="btn btn-outline-secondary">
                             <i class="fas fa-times"></i> Reset
                         </a>
                     <?php endif; ?>
@@ -128,7 +133,7 @@ include '../../includes/header.php';
                 <h5 class="text-muted">
                     <?php echo !empty($search) ? 'Tidak ada berita yang sesuai dengan pencarian.' : 'Belum ada berita yang ditambahkan.'; ?>
                 </h5>
-                <a href="create.php" class="btn btn-primary">
+                <a href="<?php echo $base_path; ?>pages/berita/create.php" class="btn btn-primary">
                     <i class="fas fa-plus me-1"></i>Tambah Berita Pertama
                 </a>
             </div>
@@ -151,7 +156,7 @@ include '../../includes/header.php';
                                 <td><?php echo $offset + $index + 1; ?></td>
                                 <td>
                                     <?php if ($berita['gambar']): ?>
-                                        <img src="../../assets/uploads/berita/<?php echo $berita['gambar']; ?>" 
+                                        <img src="<?php echo $base_path; ?>assets/uploads/berita/<?php echo $berita['gambar']; ?>" 
                                              class="img-thumbnail" alt="Berita">
                                     <?php else: ?>
                                         <div class="bg-light d-flex align-items-center justify-content-center img-thumbnail">
@@ -175,15 +180,15 @@ include '../../includes/header.php';
                                 </td>
                                 <td>
                                     <div class="btn-group" role="group">
-                                        <a href="view.php?id=<?php echo $berita['id']; ?>" 
+                                        <a href="<?php echo $base_path; ?>pages/berita/view.php?id=<?php echo $berita['id']; ?>" 
                                            class="btn btn-sm btn-outline-info btn-action">
                                             <i class="fas fa-eye"></i>
                                         </a>
-                                        <a href="edit.php?id=<?php echo $berita['id']; ?>" 
+                                        <a href="<?php echo $base_path; ?>pages/berita/edit.php?id=<?php echo $berita['id']; ?>" 
                                            class="btn btn-sm btn-outline-warning btn-action">
                                             <i class="fas fa-edit"></i>
                                         </a>
-                                        <a href="?delete=<?php echo $berita['id']; ?>" 
+                                        <a href="<?php echo $base_path; ?>pages/berita/?delete=<?php echo $berita['id']; ?>" 
                                            class="btn btn-sm btn-outline-danger btn-action"
                                            onclick="return confirmDelete('Apakah Anda yakin ingin menghapus berita ini?')">
                                             <i class="fas fa-trash"></i>
@@ -202,7 +207,7 @@ include '../../includes/header.php';
                     <ul class="pagination justify-content-center">
                         <?php if ($page > 1): ?>
                             <li class="page-item">
-                                <a class="page-link" href="?page=<?php echo $page-1; ?><?php echo !empty($search) ? '&search='.urlencode($search) : ''; ?>">
+                                <a class="page-link" href="<?php echo $base_path; ?>pages/berita/index.php?page=<?php echo $page-1; ?><?php echo !empty($search) ? '&search='.urlencode($search) : ''; ?>">
                                     <i class="fas fa-chevron-left"></i>
                                 </a>
                             </li>
@@ -210,7 +215,7 @@ include '../../includes/header.php';
                         
                         <?php for ($i = 1; $i <= $total_pages; $i++): ?>
                             <li class="page-item <?php echo ($i == $page) ? 'active' : ''; ?>">
-                                <a class="page-link" href="?page=<?php echo $i; ?><?php echo !empty($search) ? '&search='.urlencode($search) : ''; ?>">
+                                <a class="page-link" href="<?php echo $base_path; ?>pages/berita/index.php?page=<?php echo $i; ?><?php echo !empty($search) ? '&search='.urlencode($search) : ''; ?>">
                                     <?php echo $i; ?>
                                 </a>
                             </li>
@@ -218,7 +223,7 @@ include '../../includes/header.php';
                         
                         <?php if ($page < $total_pages): ?>
                             <li class="page-item">
-                                <a class="page-link" href="?page=<?php echo $page+1; ?><?php echo !empty($search) ? '&search='.urlencode($search) : ''; ?>">
+                                <a class="page-link" href="<?php echo $base_path; ?>pages/berita/index.php?page=<?php echo $page+1; ?><?php echo !empty($search) ? '&search='.urlencode($search) : ''; ?>">
                                     <i class="fas fa-chevron-right"></i>
                                 </a>
                             </li>

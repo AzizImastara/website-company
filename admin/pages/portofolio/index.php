@@ -2,6 +2,11 @@
 require_once '../../config/database.php';
 checkLogin();
 
+// Inisialisasi base_path
+$current_path = $_SERVER['PHP_SELF'];
+$is_in_pages = strpos($current_path, '/pages/') !== false;
+$base_path = $is_in_pages ? '../../' : '';
+
 $page_title = 'Kelola Portofolio';
 
 // Handle delete
@@ -112,7 +117,7 @@ include '../../includes/header.php';
         <h5 class="mb-0">
             <i class="fas fa-briefcase me-2"></i>Daftar Portofolio
         </h5>
-        <a href="create.php" class="btn btn-primary">
+        <a href="<?php echo $base_path; ?>pages/portofolio/create.php" class="btn btn-primary">
             <i class="fas fa-plus me-1"></i>Tambah Portofolio
         </a>
     </div>
@@ -140,7 +145,7 @@ include '../../includes/header.php';
                         <i class="fas fa-search"></i> Cari
                     </button>
                     <?php if (!empty($search) || !empty($kategori_filter)): ?>
-                        <a href="index.php" class="btn btn-outline-secondary">
+                        <a href="<?php echo $base_path; ?>pages/portofolio/index.php" class="btn btn-outline-secondary">
                             <i class="fas fa-times"></i> Reset
                         </a>
                     <?php endif; ?>
@@ -154,7 +159,7 @@ include '../../includes/header.php';
                 <h5 class="text-muted">
                     <?php echo (!empty($search) || !empty($kategori_filter)) ? 'Tidak ada portofolio yang sesuai dengan filter.' : 'Belum ada portofolio yang ditambahkan.'; ?>
                 </h5>
-                <a href="create.php" class="btn btn-primary">
+                <a href="<?php echo $base_path; ?>pages/portofolio/create.php" class="btn btn-primary">
                     <i class="fas fa-plus me-1"></i>Tambah Portofolio Pertama
                 </a>
             </div>
@@ -192,15 +197,15 @@ include '../../includes/header.php';
                                         <?php echo formatTanggalIndonesia($portofolio['tanggal']); ?>
                                     </small>
                                     <div class="btn-group w-100" role="group">
-                                        <a href="view.php?id=<?php echo $portofolio['id']; ?>" 
+                                        <a href="<?php echo $base_path; ?>pages/portofolio/view.php?id=<?php echo $portofolio['id']; ?>" 
                                            class="btn btn-sm btn-outline-info">
                                             <i class="fas fa-eye"></i>
                                         </a>
-                                        <a href="edit.php?id=<?php echo $portofolio['id']; ?>" 
+                                        <a href="<?php echo $base_path; ?>pages/portofolio/edit.php?id=<?php echo $portofolio['id']; ?>" 
                                            class="btn btn-sm btn-outline-warning">
                                             <i class="fas fa-edit"></i>
                                         </a>
-                                        <a href="?delete=<?php echo $portofolio['id']; ?>" 
+                                        <a href="<?php echo $base_path; ?>pages/portofolio/index.php?delete=<?php echo $portofolio['id']; ?>" 
                                            class="btn btn-sm btn-outline-danger"
                                            onclick="return confirmDelete('Apakah Anda yakin ingin menghapus portofolio ini?')">
                                             <i class="fas fa-trash"></i>
@@ -219,7 +224,7 @@ include '../../includes/header.php';
                     <ul class="pagination justify-content-center">
                         <?php if ($page > 1): ?>
                             <li class="page-item">
-                                <a class="page-link" href="?page=<?php echo $page-1; ?><?php echo !empty($search) ? '&search='.urlencode($search) : ''; ?><?php echo !empty($kategori_filter) ? '&kategori='.urlencode($kategori_filter) : ''; ?>">
+                                <a class="page-link" href="<?php echo $base_path; ?>pages/portofolio/index.php?page=<?php echo $page-1; ?><?php echo !empty($search) ? '&search='.urlencode($search) : ''; ?><?php echo !empty($kategori_filter) ? '&kategori='.urlencode($kategori_filter) : ''; ?>">
                                     <i class="fas fa-chevron-left"></i>
                                 </a>
                             </li>
@@ -227,7 +232,7 @@ include '../../includes/header.php';
                         
                         <?php for ($i = 1; $i <= $total_pages; $i++): ?>
                             <li class="page-item <?php echo ($i == $page) ? 'active' : ''; ?>">
-                                <a class="page-link" href="?page=<?php echo $i; ?><?php echo !empty($search) ? '&search='.urlencode($search) : ''; ?><?php echo !empty($kategori_filter) ? '&kategori='.urlencode($kategori_filter) : ''; ?>">
+                                <a class="page-link" href="<?php echo $base_path; ?>pages/portofolio/index.php?page=<?php echo $i; ?><?php echo !empty($search) ? '&search='.urlencode($search) : ''; ?><?php echo !empty($kategori_filter) ? '&kategori='.urlencode($kategori_filter) : ''; ?>">
                                     <?php echo $i; ?>
                                 </a>
                             </li>
@@ -235,7 +240,7 @@ include '../../includes/header.php';
                         
                         <?php if ($page < $total_pages): ?>
                             <li class="page-item">
-                                <a class="page-link" href="?page=<?php echo $page+1; ?><?php echo !empty($search) ? '&search='.urlencode($search) : ''; ?><?php echo !empty($kategori_filter) ? '&kategori='.urlencode($kategori_filter) : ''; ?>">
+                                <a class="page-link" href="<?php echo $base_path; ?>pages/portofolio/index.php?page=<?php echo $page+1; ?><?php echo !empty($search) ? '&search='.urlencode($search) : ''; ?><?php echo !empty($kategori_filter) ? '&kategori='.urlencode($kategori_filter) : ''; ?>">
                                     <i class="fas fa-chevron-right"></i>
                                 </a>
                             </li>

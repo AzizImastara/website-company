@@ -84,6 +84,9 @@
                                 Portofolio
                             </a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="<?php echo $base_path; ?>pages/pesan/kontak_masuk.php"><i class="fa fa-envelope me-2"></i> Pesan Kontak</a>
+                        </li>
                         <li class="nav-item mt-3">
                             <a class="nav-link text-danger" href="<?php echo $base_path; ?>logout.php" onclick="return confirm('Yakin ingin logout?')">
                                 <i class="fas fa-sign-out-alt me-2"></i>
