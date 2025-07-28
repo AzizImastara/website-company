@@ -56,7 +56,7 @@
       }
 
       .vision-mission-section {
-        padding: 80px 0;
+        padding: 40px 0;
         background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
       }
 
@@ -121,7 +121,7 @@
 
       .card-header {
         text-align: center;
-        margin-bottom: 40px;
+        margin-bottom: 20px;
         position: relative;
       }
 
@@ -173,19 +173,8 @@
         position: relative;
       }
 
-      .vision-content::before {
-        content: '"';
-        position: absolute;
-        top: -20px;
-        left: 20px;
-        font-size: 4rem;
-        color: var(--success-color);
-        opacity: 0.3;
-        font-family: serif;
-      }
-
       .vision-text {
-        font-size: 1.3rem;
+        font-size: 1rem;
         line-height: 1.8;
         color: var(--text-dark);
         font-weight: 500;
@@ -259,15 +248,15 @@
 
       .values-title {
         font-size: 2rem;
-        margin-bottom: 30px;
+        margin-bottom: 20px;
         color: var(--white);
       }
 
       .values-grid {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
         gap: 30px;
-        margin-top: 40px;
+        padding: 40px;
       }
 
       .value-item {
@@ -324,7 +313,7 @@
         }
         
         .vision-text {
-          font-size: 1.1rem;
+          font-size: 1rem;
         }
         
         .mission-list li {
@@ -371,17 +360,17 @@
       <section id="main-container" class="main-container vision-mission-section">
         <div class="container">
           <!-- Section Header -->
-          <div class="section-header">
+          <!-- <div class="section-header">
             <h2 class="section-title">Visi & Misi Perusahaan</h2>
             <p class="section-subtitle">Panduan dan komitmen kami dalam memberikan layanan terbaik untuk kemajuan industri pertambangan Indonesia</p>
-          </div>
+          </div> -->
 
           <!-- Visi Section -->
           <div class="vision-mission-card">
             <div class="card-header">
-              <div class="card-icon">
+              <!-- <div class="card-icon">
                 <i class="fas fa-eye"></i>
-              </div>
+              </div> -->
               <h3 class="card-title">Visi</h3>
             </div>
             <div class="vision-content">
@@ -396,9 +385,9 @@
           <!-- Misi Section -->
           <div class="vision-mission-card">
             <div class="card-header">
-              <div class="card-icon">
+              <!-- <div class="card-icon">
                 <i class="fas fa-bullseye"></i>
-              </div>
+              </div> -->
               <h3 class="card-title">Misi</h3>
             </div>
             <div class="mission-content">
@@ -435,7 +424,7 @@
             <h3 class="values-title">
               <i class="fas fa-star mr-2"></i>Nilai-Nilai Perusahaan
             </h3>
-            <p class="mb-4">Prinsip-prinsip yang menjadi fondasi dalam menjalankan setiap aktivitas perusahaan</p>
+            <p class="p-2">Prinsip-prinsip yang menjadi fondasi dalam menjalankan setiap aktivitas perusahaan</p>
             
             <div class="values-grid">
               <div class="value-item">

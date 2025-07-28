@@ -96,13 +96,13 @@
       }
 
       .about-section {
-        padding: 100px 0;
+        padding: 40px 0;
         background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
       }
 
       .section-header {
         text-align: center;
-        margin-bottom: 80px;
+        margin-bottom: 40px;
         position: relative;
       }
 
@@ -128,7 +128,7 @@
 
       .section-subtitle {
         color: var(--text-light);
-        font-size: 1.1rem;
+        font-size: 1rem;
         max-width: 600px;
         margin: 0 auto;
       }
@@ -160,9 +160,10 @@
         box-shadow: var(--shadow-hover);
       }
 
-      .card-header {
+      .card-header1 {
         display: flex;
         align-items: center;
+        justify-content: center;
         margin-bottom: 25px;
       }
 
@@ -189,8 +190,13 @@
       .content-text {
         color: var(--text-dark);
         line-height: 1.8;
-        font-size: 1.05rem;
         margin-bottom: 20px;
+      }
+
+      .content-text p {
+        margin-bottom: 12px;
+        font-size: 1rem;
+        text-align: justify;
       }
 
       .features-grid {
@@ -478,7 +484,7 @@
         <div class="container">
           <!-- Section Header -->
           <div class="section-header">
-            <h2 class="section-title">Tentang PT. KARYA MANDIRI CAKRA BUANA</h2>
+            <!-- <h2 class="section-title">Tentang PT. KARYA MANDIRI CAKRA BUANA</h2> -->
             <p class="section-subtitle">Perusahaan konstruksi terpercaya dengan pengalaman luas dalam pembangunan infrastruktur Indonesia</p>
           </div>
 
@@ -486,7 +492,7 @@
             <div class="col-lg-12">
               <!-- Sejarah Card -->
               <div class="company-card">
-                <div class="card-header">
+                <div class="card-header1">
                   <div class="card-icon">
                     <i class="fas fa-history"></i>
                   </div>
@@ -510,9 +516,9 @@
 
               <!-- Company Gallery -->
               <div class="company-gallery">
-                <h4 class="text-center mb-4" style="color: var(--primary-color);">
+                <!-- <h4 class="text-center mb-4" style="color: var(--primary-color);">
                   <i class="fas fa-images mr-2"></i>Galeri Perusahaan
-                </h4>
+                </h4> -->
                 <div class="gallery-grid">
                   <div class="gallery-item">
                     <img src="img/proyek.jpg" alt="Proyek Konstruksi" />
@@ -528,7 +534,7 @@
 
               <!-- Profil Perusahaan Card -->
               <div class="company-card">
-                <div class="card-header">
+                <div class="card-header1">
                   <div class="card-icon">
                     <i class="fas fa-building"></i>
                   </div>
@@ -549,7 +555,7 @@
 
               <!-- Mengapa Memilih Kami -->
               <div class="company-card">
-                <div class="card-header">
+                <div class="card-header1">
                   <div class="card-icon">
                     <i class="fas fa-star"></i>
                   </div>

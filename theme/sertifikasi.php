@@ -127,10 +127,10 @@
             <div class="modern-card-content">
               <h3 class="modern-card-title">Kelengkapan Legalitas Lain</h3>
               <ul class="modern-list">
-                <li>Nomor Induk Berusaha (NIB)</li>
-                <li>Surat Izin Usaha Perdagangan (SIUP)</li>
-                <li>Nomor Pokok Wajib Pajak (NPWP)</li>
-                <li>Surat Pengukuhan Pengusaha Kena Pajak (SPPKP)</li>
+                <li>- Nomor Induk Berusaha (NIB)</li>
+                <li>- Surat Izin Usaha Perdagangan (SIUP)</li>
+                <li>- Nomor Pokok Wajib Pajak (NPWP)</li>
+                <li>- Surat Pengukuhan Pengusaha Kena Pajak (SPPKP)</li>
               </ul>
             </div>
           </div>
@@ -159,7 +159,7 @@
         .modern-desc {
           text-align: center;
           color: #555;
-          font-size: 1.13rem;
+          font-size: 1rem;
           margin-bottom: 38px;
         }
         .modern-cards {

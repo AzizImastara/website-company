@@ -128,7 +128,7 @@ $kategori_portofolio = getKategoriPortofolio();
           <!-- Intro Section -->
           <div class="row">
             <div class="col-12">
-              <div class="text-center mb-5">
+              <div class="text-center m-2">
                 <p class="section-description">
                   PT. Karya Mandiri Cakra Buana berfokus pada dua lini utama
                   yaitu konstruksi dan pertambangan. Dengan pengalaman
@@ -142,7 +142,7 @@ $kategori_portofolio = getKategoriPortofolio();
 
           <!-- Business Lines -->
           <div class="row">
-            <div class="col-lg-4 col-md-6 mb-5">
+            <div class="col-lg-4 col-md-6 mb-2">
               <div class="business-card ts-service-box">
                 <div class="ts-service-image-wrapper">
                   <img loading="lazy" class="w-100" src="images/services/service1.jpg" alt="service-image" />

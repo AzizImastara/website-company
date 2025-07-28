@@ -65,7 +65,7 @@
       <!-- Banner area end -->
       <!-- Modern Segmen Industri Content Section -->
       <section class="segment-section-modern">
-        <h2 class="segment-title"><i class="fas fa-industry"></i> Segmen Industri</h2>
+        <!-- <h2 class="segment-title"><i class="fas fa-industry"></i> Segmen Industri</h2> -->
         <p class="segment-desc">PT. Karya Mandiri Cakra Buana melayani berbagai segmen industri dengan pendekatan yang fleksibel dan profesional. Segmentasi pasar kami meliputi:</p>
         <div class="segment-cards">
           <div class="segment-card">
@@ -126,7 +126,7 @@
         .segment-desc {
           text-align: center;
           color: #555;
-          font-size: 1.13rem;
+          font-size: 1rem;
           margin-bottom: 38px;
         }
         .segment-cards {
@@ -179,7 +179,7 @@
         }
         .segment-card-text {
           color: #444;
-          font-size: 1.04rem;
+          font-size: 1rem;
           text-align: center;
         }
         @media (max-width: 900px) {

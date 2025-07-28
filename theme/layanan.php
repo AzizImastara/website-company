@@ -56,7 +56,7 @@
       }
 
       .services-section {
-        padding: 80px 0;
+        padding: 40px 0;
         background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
       }
 
@@ -121,7 +121,7 @@
 
       .category-header {
         text-align: center;
-        margin-bottom: 40px;
+        margin-bottom: 20px;
       }
 
       .category-title {
@@ -133,13 +133,19 @@
 
       .category-description {
         color: var(--text-light);
-        font-size: 1.05rem;
+        font-size: 1rem;
         line-height: 1.6;
       }
 
       .service-grid {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        gap: 30px;
+      }
+
+      .service-grid1 {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
         gap: 30px;
       }
 
@@ -302,7 +308,7 @@
           padding: 25px;
         }
         
-        .service-grid {
+        .service-grid, .service-grid1 {
           grid-template-columns: 1fr;
         }
         
@@ -345,10 +351,10 @@
       <section id="main-container" class="main-container services-section">
         <div class="container">
           <!-- Section Header -->
-          <div class="section-header">
+          <!-- <div class="section-header">
             <h2 class="section-title">Layanan Kami</h2>
             <p class="section-subtitle">Solusi lengkap untuk kebutuhan pertambangan, konstruksi, dan infrastruktur dengan standar kualitas terbaik</p>
-          </div>
+          </div> -->
 
           <!-- Layanan Utama Section -->
           <div class="service-category">
@@ -424,7 +430,7 @@
               <p class="category-description">Layanan tambahan yang mendukung operasional tambang dan memenuhi kebutuhan khusus klien</p>
             </div>
             
-            <div class="service-grid">
+            <div class="service-grid1">
               <div class="service-card">
                 <div class="service-icon">
                   <i class="fas fa-broadcast-tower"></i>
